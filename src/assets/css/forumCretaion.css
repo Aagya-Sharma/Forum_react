@@ -1,0 +1,70 @@
+.forum-creation-container {
+    margin: 20rem;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    overflow-x: hidden; 
+  }
+  
+  .forum {
+    text-align: center;
+    color:  #301934;
+  }
+  
+  label {
+    display: block; 
+    text-align: left; 
+    margin-bottom: 5px; 
+  }
+  
+  input[type="text"],
+  .creationButton {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    width: 100%;
+    height: 150px; 
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none; 
+  }
+  
+  .creationButton{
+    background-color: #301934;
+    color: #fff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .forum-creation-container {
+      max-width: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .forum-details-container {
+      max-width: 200px;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    .forum-details-container {
+      max-width: 100px;
+    }
+  }
+
+  
