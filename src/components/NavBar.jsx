@@ -8,13 +8,14 @@ function Navbar() {
   const { logout, setUser } = useForumStore();
 
   const handleLogout = () => {
-    logout();
-    //set the user state to {}
-    setUser({});
-    //navigate to login screen
-    navigate("/");
-  };
+    const confirmLogout = window.confirm("Are you sure you want to log out?");
 
+    if (confirmLogout) {
+      logout();
+      setUser({});
+      navigate("/");
+    }
+  };
   return (
     <div className="navbar">
       <NavLink to="/forums" activeClassName="active" className="forums-button">
