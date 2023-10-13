@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  background-color: #301934;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 2rem;
+  flex: 1;
+
+}
+
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.logout-button,
+.forums-button,
+.additional-button {
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #301934;
+  color: #fff;
+}
+
+.forums-button.active {
+  background-color: #301934;
+  color: red; 
+}
