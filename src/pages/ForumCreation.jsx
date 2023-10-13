@@ -35,8 +35,13 @@ function ForumCreation() {
       setNewForumTitle('');
       setNewForumContent('');
 
+      alert("forum created successfully")
+
       //navigate to forum list
       navigate("/forums")
+    }
+    else{
+      alert("cannot post empty form")
     }
   };
 
